@@ -99,3 +99,31 @@
     border: 1px solid #66ff00;
     width: 100px;
     }
+    
+.well {
+    width: 300px;
+    margin: 200px;
+    height: 250px;
+    text-align: center;
+    }
+        
+    
+#texto {
+    font-size: 12px;
+    line-height: 25px;
+    margin-top: -10px;
+   }
+    
+#texto1 {
+    font-size: 13px;
+    line-height: 25px;
+    margin-top: 20px;
+        }
+        
+.uno {
+    margin-left: 50%;
+    }     
+    
+.dos {
+    margin-top: -200px;
+    }
