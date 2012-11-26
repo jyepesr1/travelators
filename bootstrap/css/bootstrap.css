@@ -5693,7 +5693,8 @@ a.badge:hover {
 
 .accordion {
   margin-bottom: 20px;
-}
+  width: 400px;
+  }
 
 .accordion-group {
   margin-bottom: 2px;

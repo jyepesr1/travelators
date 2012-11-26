@@ -11,8 +11,7 @@
     }
     
 .texto {
-    margin-left:200px;
-    margin-right:600px;
+    margin-left:300px;
     margin-top:20px;
     margin-bottom:60px;
     text-align: justify;
@@ -72,6 +71,7 @@
     width: 308px;
     height: 58px;
     margin-top: 38px;
+    margin-left: 70px;
     padding-top: 30px;
     display: block;
     color: white;
@@ -127,3 +127,8 @@
 .dos {
     margin-top: -200px;
     }
+    
+.logo {
+    float:left;
+    margin-top: 30px;
+    }    

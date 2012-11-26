@@ -5,14 +5,52 @@
     <meta charset="utf-8">    
     <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
     <link rel="stylesheet" href="style2.css"/>
+    <link rel="stylesheet" type="text/css" href="bootstrap/js/slider/css/jquery.lightbox-0.5.css" media="screen" />
     </head>
   <body>
-  <div class="image">
-  <img src="bootstrap/img/islas-filipinas.jpg">
-    </div>
-
-   <form class="navbar-search pull-left search" action="">
-             <input type="text" class="search-query span2" placeholder="Search"></form>
+   
+  <div class="container-fluid">
+    <div class="row-fluid">
+        <div class="span6">
+        
+        <p class="title">FILIPINAS</p>
+        
+         <div id="gallery" class="galeria">
+                    
+        <a href="http://www.viajo.org/wp-content/uploads/2007/10/982409205_f1f77a1104.jpg">
+            <img src="http://www.viajo.org/wp-content/uploads/2007/10/982409205_f1f77a1104.jpg" width="200" height="200" alt="">
+        </a>
+                        
+        <a href="http://filipinas.pordescubrir.com/wp-content/uploads/2009/01/turismo-filipinas.jpg">
+            <img src="http://filipinas.pordescubrir.com/wp-content/uploads/2009/01/turismo-filipinas.jpg" width="200" height="200" alt="">
+        </a>
+                        
+        <a href="http://www.absolutfilipinas.com/wp-content/uploads/2011/05/filipinas6.jpg">
+            <img src="http://www.absolutfilipinas.com/wp-content/uploads/2011/05/filipinas6.jpg" width="200" height="200" alt="">
+        </a>
+                       
+        <a href="http://www.espirituviajero.com/files/u3/principal_espiritu_viajeroSnake%20Island%20Palawan%20Filipinas.jpg">
+            <img src="http://www.espirituviajero.com/files/u3/principal_espiritu_viajeroSnake%20Island%20Palawan%20Filipinas.jpg" width="200" height="200" alt="">
+        </a>
+        
+        <a href="http://www.ciudad-real.es/fiestas/folklore/folklore2006/grupos/filipinas-2.jpg">
+            <img src="http://www.ciudad-real.es/fiestas/folklore/folklore2006/grupos/filipinas-2.jpg" width="200" height="200" alt="">
+        </a>
+                  
+         <a href="http://www.prensa.cl/wp-content/uploads/2011/02/515005127_ce38ad70c5.jpg">
+            <img src="http://www.prensa.cl/wp-content/uploads/2011/02/515005127_ce38ad70c5.jpg" width="200" height="200" alt="">
+        </a>          
+                  
+        <a href="http://filipinas.pordescubrir.com/wp-content/uploads/2010/01/turismo-filipinas.jpg">
+            <img src="http://filipinas.pordescubrir.com/wp-content/uploads/2010/01/turismo-filipinas.jpg" width="200" height="200" alt="">
+        </a>             
+                  
+                  
+    </div>  
+        </div>
+        <div class="span6">
+           <form class="navbar-search pull-left search" action="">
+             <input type="text" class="search-query" placeholder="Search"></form>
              
     <div class="btn-group drop">
   <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
@@ -23,18 +61,59 @@
    <li>
     <a href="#">Colombia</a>    
     </li>
+     <li>
+    <a href="#">Filipinas</a>    
+    </li>
   </ul>
 </div>
 
-<div class="user">
-    <img src="http://www.jamsadr.com/files/Professional/1fb60f23-00d5-4c43-a552-63321c9ed969/Presentation/HighResPhoto/Person-Donald-900x1080.jpg">
-    
+<div>
+    <a class="user" href="#" rel="tooltip" title="Ernest August"><img src="http://www.jamsadr.com/files/Professional/1fb60f23-00d5-4c43-a552-63321c9ed969/Presentation/HighResPhoto/Person-Donald-900x1080.jpg"></a>
 </div>
 
-<div id="map">
+<div id="map" class="row">
 <iframe width="350" height="225" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.es/?ie=UTF8&amp;ll=40.396764,-3.713379&amp;spn=9.483886,21.643066&amp;t=m&amp;z=6&amp;output=embed"></iframe><br /><small><a href="http://maps.google.es/?ie=UTF8&amp;ll=40.396764,-3.713379&amp;spn=9.483886,21.643066&amp;t=m&amp;z=6&amp;source=embed" style="color:#0000FF;text-align:left">Ver mapa más grande</a></small>
 </div>
-
+  
+ <div class="row">
+    <iframe width="350" height="215" src="http://www.youtube.com/embed/Z0tLYdxvIE4?rel=0" frameborder="0" allowfullscreen></iframe>
+</div>
+  
+  <div class="accordion row" id="accordion2">
+  <div class="accordion-group">
+    <div class="accordion-heading">
+      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+       Item #1
+      </a>
+    </div>
+    <div id="collapseOne" class="accordion-body collapse in">
+      <div class="accordion-inner">
+        Filipinas
+      </div>
+    </div>
+  </div>
+  <div class="accordion-group">
+    <div class="accordion-heading">
+      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+       Item #2
+      </a>
+    </div>
+    <div id="collapseTwo" class="accordion-body collapse">
+      <div class="accordion-inner">
+        Colombia
+      </div>
+    </div>
+  </div>
+</div>
+  
+  
+        </div>
+    </div>
+  </div>
+  
+  
+             
+  
    <!--Le javascript
     ================================================== 
     Placed at the end of the document so the pages load faster-->
@@ -46,6 +125,7 @@
     <script type="text/javascript" src="http://static.stackmob.com/js/backbone-0.9.2-min.js"></script>
     <script type="text/javascript" src="http://static.stackmob.com/js/stackmob-js-0.6.0-min.js"></script>
     <!--App scripts (Disable until they finnish their design)-->
+    <script type="text/javascript" src="bootstrap/js/slider/js/jquery.lightbox-0.5.js"></script>
     <script type="text/javascript" src="bootstrap/js/travelators.js"></script>
     
 

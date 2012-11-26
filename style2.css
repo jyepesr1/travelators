@@ -3,8 +3,17 @@
     margin-top: 10px;
     }
     
+.title {
+    font-size: 70px;
+    margin: 50px;
+    text-align: center;
+    
+    }    
+
+.image {
+    float:left;   
+}
 .image > img {
-    float: left;
     margin-left: 50px;
     margin-top: 30px;
     border: 5px solid #000
@@ -26,3 +35,17 @@
     float: right;
     margin-right: 20px;
     }
+    
+.lista {
+    float: left;
+    margin-left: 50px;
+    }
+    
+body {
+    background: url(bootstrap/img/otis_redding.png);
+    }
+    
+.galeria {
+    padding: 15px;
+    }
+    
