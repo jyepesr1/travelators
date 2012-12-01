@@ -1,6 +1,10 @@
 body {
-    margin-left: 100px;
+    margin-top: 30px;
     background: url(bootstrap/img/stressed.png);
     color: #fff;
+    margin-left: 50px;
+}
+     
+#map_canvas {
+    margin-top: 150px;
     }
-    

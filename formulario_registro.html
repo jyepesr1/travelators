@@ -2,68 +2,77 @@
 
 <html>
 <head>
-    <meta charset="utf-8">
-    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
-    <link rel="stylesheet" href="style3.css"/>
-    
+  <meta charset="utf-8">
+  <link rel="shortcut icon" href="favicon.ico" />
+  <title>Formulario</title>
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />    
+  <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+  <link rel="stylesheet" href="style3.css"/>
 </head>
-
 <body>
 
-<fieldset>
+  <div class="container-fluid">
+    <div class="row-fluid">
+      <div class="span4">
+        <fieldset>
           <legend style="color:#fff"><h2>Nuevo Sitio</h2></legend>
           <div class="control-group">
             <label class="control-label" for="input01"><h5>Nombre del Sitio</h5></label>
             <div class="controls">
-              <input type="text" class="input-xlarge" id="input01">
-              </div>
-            </div>
-            
-           <div class="control-group">
-            <label class="control-label" for="fileInput"><h5>Subir Imagen</h5></label>
-            <div class="controls">
-              <input class="input-file" id="fileInput" type="file">
+              <input id="sitio" type="text" class="input-xlarge" >
             </div>
           </div>
+
+          <div class="control-group">
+            <label class="control-label" for="fileInput"><h5>Subir Imagenes</h5></label>
+            <div class="controls">
+             <input type="file" id="imagen" name="files[]" multiple/>
+            </div>
+          </div>
+
           <div class="control-group">
             <label class="control-label" for="textarea"><h5>Descripción del Lugar</h5></label>
             <div class="controls">
-              <textarea class="input-xlarge" id="textarea" rows="3"></textarea>
+              <textarea id="descripcion" class="input-xlarge" rows="3"></textarea>
             </div>
           </div>
+
+
           <div class="control-group">
-            <label class="control-label" for="focusedInput"><h5>Distancia al Aeropuerto</h5></label>
+            <label class="control-label" for="input01"><h5>Distancia al Aeropuerto</h5></label>
             <div class="controls">
-              <input class="input-xlarge focused" id="focusedInput" type="text" value="En Kilometros...">
+              <input id="distancia" type="text" placeholder="En Kilometros..." class="input-xlarge">
             </div>
           </div>
-          
+
           <div class="control-group">
-            <label class="control-label" for="focusedInput"><h5>Ubicación</h5></label>
+            <label class="control-label"><h5>Puntuación del Lugar</h5></label>
             <div class="controls">
-              <input class="input-xlarge focused" id="focusedInput" type="text" value="País, Ciudad">
-            </div>
-          </div>
-                                        
-          <div class="control-group success">
-            <label class="control-label" for="selectError"><h5>Puntuación del Lugar</h5></label>
-            <div class="controls">
-              <select id="selectError">
+              <select class="input-xlarge" id="puntuacion">
                 <option>1</option>
                 <option>2</option>
                 <option>3</option>
                 <option>4</option>
                 <option>5</option>
               </select>
-              <span class="help-inline"></span>
             </div>
           </div>
+
           <div style="padding: 20px">
-            <button type="submit" class="btn btn-primary" style="margin-right:20px">Save changes</button>
+            <button id="enviar" type="submit" class="btn btn-primary" style="margin-right:20px">Save changes</button>
             <button type="reset" class="btn">Cancel</button>
           </div>
         </fieldset>
+      </div>
+    </div>
+  </div>
 
 
+ <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+ <script type="text/javascript" src="http://static.stackmob.com/js/json2-min.js"></script>
+ <script type="text/javascript" src="http://static.stackmob.com/js/underscore-1.4.1-min.js"></script>
+ <script type="text/javascript" src="http://static.stackmob.com/js/backbone-0.9.2-min.js"></script>
+ <script type="text/javascript" src="http://static.stackmob.com/js/stackmob-js-0.6.1-min.js"></script>
+ <script type="text/javascript" src="bootstrap/js/coderise.js"></script>  
 </body>
 </html>

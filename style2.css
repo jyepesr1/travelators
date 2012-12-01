@@ -2,12 +2,16 @@
     margin-left: 30%;
     margin-top: 10px;
     }
-    
+
+body {
+    color: white;
+    }
+
 .title {
     font-size: 70px;
     margin: 50px;
     text-align: center;
-    
+    font-family: 'Risque', cursive;
     }    
 
 .image {
@@ -27,13 +31,14 @@
 
 .user > img {
     width: 100px;
-    margin-left: 50px;
-    margin-top: 10px;
+    margin-top: 50px;
     } 
     
-#map {
+.map {
+    width: 350px;
+    height: 250px;
     float: right;
-    margin-right: 20px;
+    margin-top: 115px;
     }
     
 .lista {
@@ -42,10 +47,27 @@
     }
     
 body {
-    background: url(bootstrap/img/otis_redding.png);
+    background: url(bootstrap/img/navy_blue.png);
     }
     
 .galeria {
     padding: 15px;
     }
+
+.distancia {
+    padding:20px;
+    }
+    
+.distanciauno {
+    padding:20px;
+    }
+
+.descripcion {
+    margin: 20px;
+    text-align: justify;
+    }
+ 
+ #video {
+     margin-top: 230px;
+     }
     

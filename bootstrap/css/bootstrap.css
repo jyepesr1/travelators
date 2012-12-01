@@ -8,6 +8,9 @@
  * Designed and built with all the love in the world @twitter by @mdo and @fat.
  */
 
+.colorcito {
+    color:#000000;
+    }
 article,
 aside,
 details,
@@ -5190,6 +5193,7 @@ input[type="submit"].btn.btn-mini {
 }
 
 .popover-title {
+  color: black;
   padding: 8px 14px;
   margin: 0;
   font-size: 14px;
@@ -5203,6 +5207,7 @@ input[type="submit"].btn.btn-mini {
 }
 
 .popover-content {
+  color: black;
   padding: 9px 14px;
 }
 
